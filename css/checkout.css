@@ -1,0 +1,124 @@
+body{
+background-color: #FFF;
+font-size: 87.5%;
+font-family: Arial, San-Serif;
+line-height: 1.5;
+text-align: left;
+}
+
+
+h3{
+  line-height: 9%;
+  padding: 1% 0;
+}
+
+.body{
+margin: 0 auto;
+width: 70%;
+clear: both;
+}
+
+a{
+text-decoration: none;
+}
+
+
+.mainheader img{
+ width: 30%;
+ height: 30%;
+ margin-top: 1%;
+}
+
+.mainheader nav{
+  background-color: #75bac3;
+  height : 40px;
+  border-radius: 5px;
+}
+
+.mainheader nav ul{
+  list-style: none;
+  margin: 0 auto;
+  
+}
+
+.mainheader nav ul li{
+ float:left;
+ display: inline;
+ 
+}
+
+.mainheader nav a:link, .mainheader nav a:visited{
+ color: #FFF;
+ font-size: 120%;
+ display: inline-block;
+ padding: 10px 25px;
+ height: 20px;
+}
+
+.mainheader nav a:hover, .mainheader nav a:active, .mainheader nav .active a:link, .mainheader nav .active a:visited{
+  background-color: #CF5C3F;
+  text-shadow: none;
+}
+
+.mainheader nav ul li a{
+   border-radius: 5px;
+}
+
+#counter{
+padding-left: 350px;
+}
+
+#form ul{
+ list-style-type: none;
+}
+
+#form ul li{
+padding: 1%;
+}
+
+.heading{
+font-weight: bold;
+padding-left: 3%;
+}
+
+.button_panel{
+padding-left: 40%;
+}
+
+.sbutton, .button{
+margin-left: 2%;
+padding: 1.5%;
+font-weight: bold;
+border-radius: 2px;
+}
+
+input.sbutton{
+background-color: #75bac3;
+}
+
+input.button{
+background-color: #75bac3;
+}
+
+#form{
+margin-top: 1%;
+}
+
+.mandatory{
+color: grey;
+}
+
+p{
+margin-bottom: -1%;
+}
+
+#message_line{
+color: red;
+padding-top: 1%;
+font-size: 110%;
+padding-left: 3%;
+}
+
+.error{
+border: 1px solid red;
+}

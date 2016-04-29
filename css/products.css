@@ -1,0 +1,205 @@
+body{
+background-color: #FFF;
+font-size: 87.5%;
+font-family: Arial, San-Serif;
+line-height: 1.5;
+text-align: left;
+}
+
+
+h3{
+  line-height: 9%;
+  padding: 1% 0;
+}
+
+.body{
+margin: 0 auto;
+width: 70%;
+clear: both;
+}
+
+a{
+text-decoration: none;
+}
+
+
+.mainheader img{
+ width: 30%;
+ height: 30%;
+ margin-top: 1%;
+}
+
+.mainheader nav{
+  background-color: #75bac3;
+  height : 40px;
+  border-radius: 5px;
+}
+
+.mainheader nav ul{
+  list-style: none;
+  margin: 0 auto;
+  
+}
+
+.mainheader nav ul li{
+ float:left;
+ display: inline;
+ 
+}
+
+.mainheader nav a:link, .mainheader nav a:visited{
+ color: #FFF;
+ font-size: 120%;
+ display: inline-block;
+ padding: 10px 25px;
+ height: 20px;
+}
+
+.mainheader nav a:hover, .mainheader nav a:active, .mainheader nav .active a:link, .mainheader nav .active a:visited{
+  background-color: #CF5C3F;
+  text-shadow: none;
+}
+
+.mainheader nav ul li a{
+   border-radius: 5px;
+}
+
+#counter{
+margin-left: 250px;
+}
+
+section{
+ width: 26%;
+ float: left;
+ margin: 0 2% 1% 4%;
+ text-align: center;
+ border: 1px solid #EEE;
+}
+
+
+#data{
+font-size: 87.5%;
+font-family: Arial, San-Serif;
+width: 60%;
+float: left;
+border-radius: 5px;
+padding: 1% 1% 1% 3%;
+}
+
+#image{
+   width: 30%;
+   float:left;
+   margin: 1% 0 1% 1%;
+}
+
+#searchform{
+ padding-left: 57%;
+ padding-bottom: 10px;
+}
+
+
+#filter{
+float:left;
+margin-left: -160px;
+border-right: 4px solid #EEE;
+padding-right: 10px;
+}
+
+ul{
+list-style-type: square;
+}
+
+
+p{
+font-weight: bold;
+margin-bottom: -2px;
+}
+
+.head{
+	margin-bottom: -7px;
+	font-size: 130%;
+}
+
+#noMatch{
+font-weight: bold;
+font-size: 120%;	
+padding: 2%;
+}
+
+#found{
+font-weight: bold;
+font-size: 120%;	
+padding: 3%;
+}
+
+a:hover#click{
+	opacity: 0.6;
+	background-color: #EEE;	
+}
+
+#avail{
+ color: red;
+ font-style: italic;
+ font-size: 110%;
+ font-weight: bold;
+ padding-top: 5%;	
+}
+
+
+a.brand{
+	color: black;
+	padding: 2%;
+}
+
+a.price{
+	color: black;
+	padding: 2%;
+}
+
+a:hover.brand{
+	background-color: #75bac3;
+}
+
+a:hover.price{
+	background-color: #75bac3;
+}
+
+a:active.brand{
+	text-decoration: underline;
+}
+
+a:active.price{
+	text-decoration: underline;
+}
+
+#display{
+	margin-top: 1%;
+}
+
+#error{
+color: red;
+font-style: italic;
+font-size: 110%;
+padding-top: 2%;	
+}
+
+#addButton{
+	margin-left: 10%;
+}
+
+input#qty{
+	width: 15%;
+}
+
+#addProceed{
+margin-top: 4%;
+font-weight: bold;	
+}
+
+#green{
+	color: black;
+}
+
+#red{
+	color: green;
+}
