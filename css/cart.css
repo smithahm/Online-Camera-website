@@ -1,0 +1,192 @@
+body{
+background-color: #FFF;
+font-size: 87.5%;
+font-family: Arial, San-Serif;
+line-height: 1.5;
+text-align: left;
+}
+
+
+h3{
+  line-height: 9%;
+  padding: 1% 0;
+}
+
+p{
+ padding: 1%;
+ padding-left: 8%;
+ padding-right: 8%;
+ line-height: 2;
+ font-family: Verdana, Geneva, sans-serif;
+}
+
+
+.body{
+margin: 0 auto;
+width: 70%;
+clear: both;
+}
+
+a{
+text-decoration: none;
+}
+
+
+.mainheader img{
+ width: 30%;
+ height: 30%;
+ margin-top: 1%;
+}
+
+.mainheader nav{
+  background-color: #75bac3;
+  height : 40px;
+  border-radius: 5px;
+}
+
+.mainheader nav ul{
+  list-style: none;
+  margin: 0 auto;
+  
+}
+
+.mainheader nav ul li{
+ float:left;
+ display: inline;
+ 
+}
+
+.mainheader nav a:link, .mainheader nav a:visited{
+ color: #FFF;
+ font-size: 120%;
+ display: inline-block;
+ padding: 10px 25px;
+ height: 20px;
+}
+
+.mainheader nav a:hover, .mainheader nav a:active, .mainheader nav .active a:link, .mainheader nav .active a:visited{
+  background-color: #CF5C3F;
+  text-shadow: none;
+}
+
+.mainheader nav ul li a{
+   border-radius: 5px;
+}
+
+
+.maincontent ul{
+list-style: none;
+}
+
+#counter{
+margin-left: 250px;
+background-color: #CF5C3F;
+}
+
+#main{
+ margin: 2% 0 0 0;
+ background-color:#EEE;
+ height: 100%;	
+}
+
+#empty {
+	font-style: italic;
+	font-size: 170%;
+	padding-bottom: 1%;
+	margin-left: 33%;
+}
+#button{
+ padding-bottom: 5%;
+ padding-top: 4%;	
+}
+
+#button a{
+border: 4px groove black;
+background-color:#75bac3;
+font-size: 150%;
+margin-left: 36%;
+margin-top: -20%;
+color: black;
+padding: 1%;
+}
+
+section{
+ width: 71%;
+ float: left;
+ margin: 0% 2% 1% 1%;
+ text-align: center;
+ border: 1px groove black;
+}
+
+#checkout a{
+border: 2px groove black;
+background-color:#75bac3;
+font-size: 130%;
+color: black;
+padding: 2%;
+}
+
+#checkout{
+padding: 15% 4% 15% 11%;
+}
+
+#head{
+	margin: 2% 0 2% 0;
+	font-size: 150%;
+	font-style:italic;	
+}
+
+#proceed{
+float: right;
+margin-left: -150px;
+border: 2px solid #EEE;
+background-color: #EEE;
+width: 25%;
+margin-top: -70px;
+}
+
+#sub{
+font-size: 150%;
+padding: 10% 10% 10% 7%;
+}
+
+#camera img{
+margin-left: -45%;	
+margin-top: 1%;
+margin-bottom: 5%;
+}
+
+#details{
+margin-top : -25.5%;
+margin-left: 28%;
+border: 1px solid #EEE;
+width: 30%;
+padding: 3.5%;
+margin-bottom: 15%;
+}
+
+input#delete{
+	margin-bottom: 10%;
+}
+
+#quant{
+margin-left: 71%;
+margin-top: -33%;
+margin-right: 4%;
+padding: 3.5%;
+border: 1px solid #EEE;
+}
+
+input{
+width: 100%;
+}
+
+.message_line{
+	color: red;
+}
+
+p #message_line{
+	margin-left: -9%;
+	margin-top: -10%;
+	color: red;
+}
