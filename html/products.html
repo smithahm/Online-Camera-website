@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+ <title>Camera Online store </title>
+ <link rel="stylesheet" href="../css/products.css" />
+ <link rel="stylesheet" href="../jquery-ui-1.10.2.custom/css/custom-theme/jquery-ui-1.10.2.custom.min.css" /> 
+ <script src="http://jadran.sdsu.edu/jquery/jquery.js"></script> 
+ <script src="../jquery-ui-1.10.2.custom/js/jquery-ui-1.10.2.custom.min.js"></script>
+ <script src="../js/ajax_get_lib.js"></script>  
+ <script src="../js/products.js"></script>
+ <script src="../js/shopping_cart.js"></script>
+ <script src="../js/filter.js"></script>
+ 
+</head>
+<body>
+<div class="body">
+ <header class="mainheader">
+  <img src="../images/logo.jpg" alt="ok">
+
+   <form id="searchform" method="post">
+	<input type="text" name="search_query" id="search_query" placeholder="Camera category" size="50"/>
+	<input type="submit" value="Search" id="button_find" />
+     </form>
+
+
+  <nav>
+   <ul>
+     <li><a href="../proj3.html">Home</a></li>
+     <li class="active"><a href="products.html">Products</a></li>
+     <li><a href="cart.html">Order Now</a></li>
+     <li><a href="contact.html">Contact</a></li>
+     <li id="counter"><a href="cart.html">Shopping Cart: <span id="count">0</span> </a></li>
+
+   </ul>
+ </nav>
+
+ </header>
+
+<aside id="filter">
+ <p class="head">Refine By</p> 
+  <p>Brands</p> 
+   <ul>
+     <li><a href="#" class="brand">Canon</a></li>
+     <li><a href="#" class="brand">Nikon</a></li>
+     <li><a href="#" class="brand">Pentax</a></li>
+     <li><a href="#" class="brand">Sony</a></li>
+     <li><a href="#" class="brand">Leica</a></li>
+     <li><a href="#" class="brand">Olympus</a></li>
+     <li><a href="#" class="brand">Panasonic</a></li>
+     <li><a href="#" class="brand">Casio</a></li>
+     <li><a href="#" class="brand">Kodak</a></li>
+     <li><a href="#" class="brand">Hasselblad</a></li>
+  </ul>
+  <p>Price</p> 
+   <ul>
+     <li><a href="#" class="price">$0-$100</a></li>
+     <li><a href="#" class="price">$100-$500</a></li>
+     <li><a href="#" class="price">$500-$1000</a></li>
+     <li><a href="#" class="price">$1000-$2000</a></li>
+     <li><a href="#" class="price">$2000-$5000</a></li>
+     <li><a href="#" class="price">$5000-$10000</a></li>
+   </ul>
+</aside>
+
+
+<div id="noMatch"></div>
+<div id="found"></div>
+<div id="display"></div>
+
+<div id="DSLR"><p class="center">Available Cameras at our store</p> </div>
+
+<div id="dialog-modal" class="widget-dialog-container" title="Product Details">
+    
+  <aside id="image">
+    </aside>
+  <div id="data"></div>
+  <span id="avail"></span>
+  
+</div> 
+
+
+
+</div>
+
+
+</body>
+</html>
